@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #22223b;
+  color: #fff;
+}
+
+.container {
+  width: 978px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background:#4a4e69;
+}
+
+header .logo {
+  padding: 10px;
+}
+
+header .logo img {
+  width: 50px;
+}
+
+.main {
+  padding: 100px;
+}
+
+.disk-content {
+  width: calc((100% / 3) - 20px);
+  margin: 10px;
+  background:#9a8c98;
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.disk-content img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.disk-content small {
+  display: block;
+  font-size: 11px;
+  margin: 10px 0;
+}
+
+.disk-content .year {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.disk-content .genre {
+  display: block;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+

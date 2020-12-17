@@ -1,0 +1,38 @@
+//GENERAL STYLES
+
+
+
+.main {
+    padding: 100px;
+}
+
+.disk-content {
+    width: calc((100% / 3) - 20px);
+    margin: 10px;
+    background: $black;
+    text-align: center;
+    padding: 30px 50px;
+
+    img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    small {
+        display: block;
+        font-size: 11px;
+        margin: 10px 0
+    }
+
+    .year {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .genre {
+        display: block;
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+}
