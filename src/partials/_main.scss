@@ -1,0 +1,29 @@
+//MAIN
+
+main{
+  height: $main_height;
+  background-color: $main_backcolor;
+  padding-top: 20px;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 250px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #03071e;
+  color: white;
+  img{
+    width: 100%;
+  }
+  em{
+    display: block;
+  }
+  small{
+    display: block;
+  }
+}

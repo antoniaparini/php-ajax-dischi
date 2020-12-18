@@ -1,0 +1,64 @@
+/*GENERAL STYLES*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  background-color: #03071e;
+  color: white;
+}
+
+header h1 {
+  line-height: 100px;
+  margin-left: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+  background-color: #370617;
+  padding-top: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 250px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #03071e;
+  color: white;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card em {
+  display: block;
+}
+
+.card small {
+  display: block;
+}

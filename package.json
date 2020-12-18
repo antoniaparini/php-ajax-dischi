@@ -1,7 +1,7 @@
 {
-  "name": "hello_sass",
+  "name": "php-ajax-dischi",
   "version": "1.0.0",
-  "description": "",
+  "description": "php-ajax-dischi",
   "main": "index.js",
   "scripts": {
     "dev": "npm run development",
@@ -17,13 +17,9 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "laravel-mix": "^5.0.9",
-    "resolve-url-loader": "^3.1.2",
+    "resolve-url-loader": "^3.1.0",
     "sass": "^1.30.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.12"
-  },
-  "dependencies": {
-    "axios": "^0.21.0",
-    "vue": "^2.6.12"
   }
 }

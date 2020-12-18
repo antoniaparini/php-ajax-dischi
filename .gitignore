@@ -1,2 +1,5 @@
 node_modules
-.DS_STORES
+.DS_STORE
+package-lock.json
+
+index.php

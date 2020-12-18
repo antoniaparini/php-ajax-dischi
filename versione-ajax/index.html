@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PHP Ajax Dischi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="container">
+        <div class="header-container">
+          <div class="logo">
+            <img src="../icons/spotify.png" alt="">
+          </div>
+          <h1>PHP Ajax Dischi</h1>
+        </div>
+      </div>
+    </header>
+      <!--MAIN-->
+    <main>
+      <div class="container">
+        <div class="genre-selector">
+          <select id="filter">
+            <option value="">--select genre--</option>
+            <option value="Rock">Rock</option>
+            <option value="Pop">Pop</option>
+            <option value="Jazz">Jazz</option>
+            <option value="Metal">Metal</option>
+          </select>
+        </div>
+        <div class="card-container">
+        </div>
+      </div>
+    </main>
+
+    <!--SCRIPT-->
+    <script id="card-template" type="text/x-handlebars-template">
+      <div class="card">
+        <img src="{{ poster }}" alt="">
+        <h2>{{ title }}</h2>
+        <em>{{ author }}</em>
+        <small>{{ year }}</small>
+      </div>
+    </script>
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
